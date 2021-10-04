@@ -1,0 +1,113 @@
+.first-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  #header-one {
+    font-weight: bold;
+  }
+
+  .first-button {
+    margin: 0px 5px 0px 5px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 20px;
+    color: white;
+    background-color: teal;
+    border: none;
+  }
+  .second-button {
+    margin: 0px 5px 0px 5px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(121, 17, 121, 0.904);
+    border: none;
+  }
+  .second-container{
+      display: flex;
+      justify-content:center;
+      margin:100px;
+  }
+  .third-container{
+      text-align: center;
+     padding-top:;
+    }
+
+.forth-container{
+  display: flex;
+  
+  
+}
+ 
+#forth-header{
+    padding-inline: 10%;
+}
+#forth-p{
+    padding-inline: 10%;
+}
+#forth-button{
+   margin: 30px 0px 30px 30px;
+   padding-right:40px ;
+   padding-left:40px ;
+   border-radius: 20px;
+ border: none;
+ color:white;
+ background-color: purple;
+}
+
+.last-container{
+      background-image: url(image-footer); 
+      position: relative;
+      padding-top:20px;
+      height: 100%;   
+   }
+  .last-container img{
+      width: 100%;
+      display:block;
+     }
+
+.one{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    margin: 10px;
+   
+}
+
+.two{
+ position: absolute;
+ top:5px;
+ right: 5px;
+}
+
+.three{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+#h2{
+margin: 100px;
+color: rgba(255, 255, 255, 0.884);
+font-family: 'Times New Roman', Times, serif;
+}
+
+#paragraph{
+font-family: 'Times New Roman', Times, serif;
+color: white;
+}
+#button{
+margin:110px; 
+padding:5px 20px 5px 20px;
+border-radius: 10px;
+border: none;
+background-color:purple;
+color: white;
+}
+
+@media only screen and (max-width:600px){
+body{
+  background-color: white;
+}
+}
