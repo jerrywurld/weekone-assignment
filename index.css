@@ -70,7 +70,8 @@
     position: absolute;
     top: 5px;
     left: 5px;
-    margin: 10px;
+    margin: 50px;
+   
    
 }
 
@@ -78,6 +79,8 @@
  position: absolute;
  top:5px;
  right: 5px;
+ margin: 30px;
+ padding-top: 20px;
 }
 
 .three{
@@ -106,8 +109,6 @@ background-color:purple;
 color: white;
 }
 
-@media only screen and (max-width:600px){
 body{
-  background-color: white;
-}
+  margin: 0;
 }
